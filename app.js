@@ -8,6 +8,20 @@ const toy = document.getElementById('toy');
 /* State */
 
 /* Events */
+submitButton.addEventListener('click', () => {
+    toggleVisibility();
+    applyAnimations();
+    setTimeout(validateBall, 1000);
+});
+
+function toggleVisibility() {
+    questionSection.classList.add('hidden');
+    ballAnswer.classList.remove('hidden');
+}
+
+function applyAnimations() {
+    toy.classList.add('shake');
+}
 
 /* Display Functions */
 

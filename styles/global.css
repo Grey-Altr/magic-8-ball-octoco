@@ -34,6 +34,7 @@ main {
     padding: 20px;
 }
 
+/* css below for ball from https://codepen.io/finnhvman/pen/wrLPJz */
 .toy {
     position: relative;
     width: 90vmin;
